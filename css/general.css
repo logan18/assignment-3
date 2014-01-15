@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* CSS is structured as follows:
+
+selector {
+	property: value;
+}
+
+Each selector is paired with and styles an element. For example:
+p {} is paired with and styles your paragraaph element <p> */
+
+/*Shorthand:
+
+margin: 40px; all 4 sides
+margin: 40px auto;top/bottom right/left
+margin: 40px auto 0; top right/left bottom
+margin: 40px, 30px, 5px, 10px
+
+Start at the top then continue clockwise arounf the box */
+
+html {
+	background-color: #CFF;
+}
+
+body {
+	padding: 2rem 5%; /*Irem= Root Emphemeral Unit */
+	font-size:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+
+/* Margin and Padding Values:
+
+Widths are defined as %
+Heights are defines as rem */
+
+.baseline {
+	background-image:url(../images/baseline.svg);
+	background-color: #A9E3FF;
+	
+}
+
+h1 {
+	background-color:#96F;
+	font-weight:bold;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 3.2rem;
+	font-weight: normal;
+	margin-bottom:0rem;
+	
+}
+
+h2 {
+	background-color: #CFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1rem;
+	text-transform: uppercase;
+	margin-top:1.5rem;
+	margin-bottom:1.5rem;
+	line-height: 1.5rem;
+	
+}
+
+p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: .875rem;
+	margin-bottom:1.5rem;
+	line-height:1.5rem;
+}
+	
+li {
+	list-style-type: disc;
+	color:#000;
+	font-size: .875rem;
+	line-height: 1.5rem;
+	list-style-position: inside;
+}
+
+ol li {
+	list-style-type: decimal;
+	
+}
+
+h1 + p {
+	font-size: 1.313rem;
+	margin-bottom: 1rem;
+}
+
+strong {
+	font-weight: bold;
+}
+
+p strong {
+	color:#000;
+}
+
+em {
+	font-style: italic;
+}
+
+li:first-child {
+	background-color: #99F;
+}
+
+
+
